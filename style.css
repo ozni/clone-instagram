@@ -4,6 +4,7 @@ div.instagram-wrapper{
     margin: auto;
     padding-left: 20%;
     padding-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div.instagram-phone{
@@ -58,4 +59,14 @@ div.box-login input{
 
 div.images-download{
     display: inline;
+}
+
+div.box-cadastro{
+    font-size: 10pt;
+    padding: 10px;
+}
+#cadastro{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(81, 171, 245);
 }
