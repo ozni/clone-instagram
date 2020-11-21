@@ -45,6 +45,25 @@ div.box-login input{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+div#espaco-senha{
+    display: flex;
+}
+
+#senha{
+    
+}
+#mostra-senha{
+    text-align: center;
+    margin: auto;
+    padding: 3px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 22%;
+    border: none;
+    background-color: rgb(249, 250, 248);
+    outline-color: rgb(249, 250, 248);
+    visibility: hidden;
+}
 
 #entrar{
     background-color: rgb(95, 166, 246);
