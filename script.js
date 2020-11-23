@@ -1,25 +1,19 @@
 senha = document.querySelector('#senha')
 mostrar = document.querySelector('#mostra-senha')
-senhaOculta = ''
-senhaUser = ''
-conteudo = ''
 
 senha.addEventListener('input', ()=>{
-    conteudo += senha.value
     mostrar.style.visibility = 'visible'
-    return esconder()
+    if (senha.value.length == 0){
+        mostrar.style.visibility = 'hidden'
+    }
 })
 
-function esconder(){
-    senhaOculta += '*'
-    senha.value = senhaOculta
-}
-
 mostrar.addEventListener('click', ()=>{
-    for (letra in conteudo){
-        if (conteudo[letra] != '*'){
-            senhaUser += conteudo[letra]
-        }
+    if (mostrar.textContent == 'Mostrar'){
+        mostrar.textContent = 'Ocultar'
+        senha.type = 'text'
+    } else {
+        mostrar.textContent = 'Mostrar'
+        senha.type = 'password'
     }
-    senha.value = senhaUser
 })
