@@ -133,3 +133,7 @@ div.download-app{
     font-size: 10pt;
     font-weight: normal;
 }
+
+#app-store{
+    src: url('https://apps.apple.com/app/instagram/id389801252?vt=lo');
+}
