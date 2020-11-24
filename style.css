@@ -62,17 +62,23 @@ div#espaco-senha{
     visibility: hidden;
 }
 
+#senha{
+    margin-bottom: 7%;
+}
 #entrar{
     background-color: rgb(95, 166, 246);
     color: white;
     font-size: 10pt;
-    width: 85%;
+    text-decoration: none;
     font-weight: bold;
     border: none;
     border-radius: 4px;
     opacity: 0.5;
-    margin-top: 20px;
     padding: 7px;
+    padding-left: 36%;
+    padding-right: 36%;
+    pointer-events: none;
+    
 }
 
 div#ou{

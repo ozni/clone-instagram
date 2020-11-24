@@ -1,10 +1,30 @@
+email = document.querySelector('#email')
 senha = document.querySelector('#senha')
 mostrar = document.querySelector('#mostra-senha')
+entrar = document.querySelector('#entrar')
 
 senha.addEventListener('input', ()=>{
     mostrar.style.visibility = 'visible'
     if (senha.value.length == 0){
         mostrar.style.visibility = 'hidden'
+    }
+
+    if (senha.value.length >= 6 && email.value.length){
+        entrar.style.opacity = '1'
+        entrar.style.pointerEvents = 'visible'
+    } else {
+        entrar.style.opacity = '0.5'
+        entrar.style.pointerEvents = 'none'
+    }
+})
+
+email.addEventListener('input', ()=>{
+    if (senha.value.length >= 6 && email.value.length){
+        entrar.style.opacity = '1'
+        entrar.style.pointerEvents = 'visible'
+    } else {
+        entrar.style.opacity = '0.5'
+        entrar.style.pointerEvents = 'none'
     }
 })
 
