@@ -1,30 +1,27 @@
-div.instagram-wrapper{
-    display: flex;
-    background-color: rgb(249, 250, 248);
-    margin: auto;
-    padding-left: 20%;
-    padding-right: 20%;
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div.instagram-phone{
-    float: left;
-    width: 50%;
-    margin-top: 2%;
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-div.instagram-login{
-    float: right;
-    width: 50%;
-    height: auto;
-    margin-left: 0%;
+.instagram-login{
     text-align: center;
-    margin-top: 8%;
 }
 
-div.box-login, div.box-cadastro{
-    border: 1px solid rgb(212, 206, 206);
+.box-login{
     margin-bottom: 3%;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgb(212, 206, 206);
     background-color: white;
 }
 
@@ -33,23 +30,21 @@ div.box-login, div.box-cadastro{
     margin-bottom: 7%;
 }
 
-div.box-login input{
+.box-login input{
     display: block;
     margin: auto;
     width: 80%;
-    padding: 7px;
+    height: 3vh;
+    padding: 10px;
     margin-top: 7px;
     border: 1px solid rgb(212, 206, 206);
-    border-radius: 4px;
+    border-radius: 3px;
     background-color: rgb(249, 250, 248);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div#espaco-senha{
-    display: flex;
-}
 
-#mostra-senha{
+.show-password{
     text-align: center;
     margin: auto;
     padding: 3px;
@@ -62,14 +57,14 @@ div#espaco-senha{
     visibility: hidden;
 }
 
-#senha{
+#password{
     margin-bottom: 7%;
 }
+
 #entrar{
-    background-color: rgb(95, 166, 246);
+    background-color: rgb(110, 189, 235);
     color: white;
     font-size: 10pt;
-    text-decoration: none;
     font-weight: bold;
     border: none;
     border-radius: 4px;
@@ -81,7 +76,7 @@ div#espaco-senha{
     
 }
 
-div#ou{
+.other{
     display: flex;
     color: rgb(144, 135, 135);
     font-size: 10pt;
@@ -92,9 +87,9 @@ hr{
     width: 30%;
     margin: auto;
     color: rgb(212, 206, 206);
-   
 }
-#icon-face{
+
+.fa-facebook{
     color: rgb(255, 255, 255);
     background-color: rgb(50, 48, 139);
     text-decoration: none;
@@ -105,27 +100,23 @@ hr{
 
 }
 
-#face{
+.face{
     color: rgb(74, 73, 114);
-    text-decoration: none;
     font-size: 10pt;
     font-weight: bold;
 }
 
-div.recuperar{
+.recover{
     margin-bottom: 5%;
-}
-#recuperar-senha{
-    text-decoration: none;
     color: rgb(50, 48, 139);
     font-size: 9pt;
 }
 
-div.images-download{
+.images-download{
     display: inline;
 }
 
-div.box-cadastro{
+.box-cadastro{
     font-size: 10pt;
     padding: 10px;
 }
@@ -135,11 +126,7 @@ div.box-cadastro{
     color: rgb(81, 171, 245);
 }
 
-div.download-app{
+.download-app{
     font-size: 10pt;
     font-weight: normal;
-}
-
-#app-store{
-    src: url('https://apps.apple.com/app/instagram/id389801252?vt=lo');
 }
