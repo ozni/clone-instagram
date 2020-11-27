@@ -1,7 +1,7 @@
 email = document.querySelector('#email')
-senha = document.querySelector('#senha')
-mostrar = document.querySelector('#mostra-senha')
-entrar = document.querySelector('#entrar')
+senha = document.querySelector('#password')
+mostrar = document.querySelector('.show-password')
+entrar = document.querySelector('#login')
 
 senha.addEventListener('input', ()=>{
     mostrar.style.visibility = 'visible'
