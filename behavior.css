@@ -1,8 +1,14 @@
-@media(max-width: 900px){
+@media(max-width: 876px){
 
     .instagram-phone img{
         visibility: hidden;
         
+    }
+
+    .instagram-login{
+        position: absolute;
+        width: 40%;
+
     }
 
 }
