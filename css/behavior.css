@@ -12,3 +12,13 @@
     }
 
 }
+
+@media (max-width: 500px){
+    .instagram-login{
+        width: 70%;
+    }
+
+    .box-login{
+        border: none;
+    }
+}
